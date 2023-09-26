@@ -83,7 +83,7 @@ const Signup = () => {
               id="password"
               type={passwordVisible ? "text" : "password"}
               placeholder="Enter Password"
-              className="text-sm  text-black w-30px  solid border-custom-brown  h-10 border rounded px-4 py-2 mb-4"
+              className="text-sm  text-black w-[60%]  solid border-custom-brown  h-10 border rounded px-4 py-2 mb-4"
             />
             </div>
             <button
@@ -104,7 +104,7 @@ const Signup = () => {
         <div className=" mt-[42%] ml-[-14%]">
 
         <div className="w-full sm:w-120 ml-[-74%] mt-[-5%]">
-          <button className="bg-[#287100] text-white w-40 h-10  font-bold text-lg mt-12">
+          <button className="bg-[#287100] text-white w-40 h-10  font-bold text-lg mt-5px ">
             Sign In
           </button>
         </div>
