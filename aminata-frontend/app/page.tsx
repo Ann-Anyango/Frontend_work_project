@@ -1,6 +1,6 @@
 import Login from './components/LoginPage/Login'
-import Rental from './components/LoginPage/Login'
-// import Signup from './components/SignupPage/Signup'
+// import Rental from './components/LoginPage/Login'
+import Signup from './components/SignupPage/Signup'
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       <div>
 
         <Login/>
-        {/* <Signup/> */}
+        <Signup/>
        
       </div>
     </main>
